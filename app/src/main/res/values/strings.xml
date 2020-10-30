@@ -37,4 +37,14 @@
     <string name="empty">Empty</string>
     <string name="booked">Booked</string>
     <string name="selected">Selected</string>
+    <string name="checkout">Checkout</string>
+    <string name="bayar_sekarang">Bayar Sekarang</string>
+    <string name="batalkan">Batalkan</string>
+    <string name="when">When</string>
+    <string name="datetime"><![CDATA[Date & Time]]></string>
+    <string name="cinema">Cinema</string>
+    <string name="items">Items</string>
+    <string name="seat_no_c1">Seat No. C1</string>
+    <string name="seat_no_c2">Seat No. C2</string>
+    <string name="e_wallet">E-Wallet</string>
 </resources>

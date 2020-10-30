@@ -31,4 +31,10 @@
     <string name="storyboard_value">Iron Man, Thor, the Hulk and the rest of the Avengers unite to battle their most powerful enemy yet -- the evil Thanos. On a mission to collect all six Infinity Stones, Thanos plans to use the artifacts to inflict his twisted will on reality. The fate of the planet and existence itself has never been more uncertain as everything the Avengers have fought for has led up to this moment.</string>
     <string name="whos_played">Who\'s played</string>
     <string name="pilih_bangku">Pilih Bangku</string>
+    <string name="layar_bioskop">Layar Bioskop</string>
+    <string name="bangku_a">A</string>
+    <string name="beli_tiket">Beli Tiket</string>
+    <string name="empty">Empty</string>
+    <string name="booked">Booked</string>
+    <string name="selected">Selected</string>
 </resources>

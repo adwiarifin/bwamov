@@ -1,7 +1,8 @@
-package com.kesatriakeyboard.bwamov
+package com.kesatriakeyboard.bwamov.sign
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.kesatriakeyboard.bwamov.R
 
 class SignUpPhotoscreenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

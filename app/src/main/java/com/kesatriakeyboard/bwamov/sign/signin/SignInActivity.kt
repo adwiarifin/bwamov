@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.*
 import com.kesatriakeyboard.bwamov.HomeActivity
 import com.kesatriakeyboard.bwamov.R
-import com.kesatriakeyboard.bwamov.sign.SignUpActivity
+import com.kesatriakeyboard.bwamov.sign.signup.SignUpActivity
 import com.kesatriakeyboard.bwamov.utils.Preferences
 import kotlinx.android.synthetic.main.activity_sign_in.*
 
@@ -28,9 +28,9 @@ class SignInActivity : AppCompatActivity() {
         preference = Preferences(this)
 
         preference.setValues("onboarding", "1")
-        if (preference.getValues("status").equals("1")) {
-            goToHome()
-        }
+//        if (preference.getValues("status").equals("1")) {
+//            goToHome()
+//        }
 
         button_sign_in.setOnClickListener {
             iUsername = edit_username.text.toString()

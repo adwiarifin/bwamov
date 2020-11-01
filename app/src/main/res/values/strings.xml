@@ -47,4 +47,6 @@
     <string name="seat_no_c1">Seat No. C1</string>
     <string name="seat_no_c2">Seat No. C2</string>
     <string name="e_wallet">E-Wallet</string>
+    <string name="simpan_data_baru">Simpan Data Baru</string>
+    <string name="edit_profile">Edit Profile</string>
 </resources>

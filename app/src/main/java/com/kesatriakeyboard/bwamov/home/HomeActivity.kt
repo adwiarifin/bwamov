@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.ImageView
 import androidx.fragment.app.Fragment
 import com.kesatriakeyboard.bwamov.R
+import com.kesatriakeyboard.bwamov.home.dashboard.DashboardFragment
 import kotlinx.android.synthetic.main.activity_home.*
 
 class HomeActivity : AppCompatActivity() {

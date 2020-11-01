@@ -28,9 +28,9 @@ class SignInActivity : AppCompatActivity() {
         preference = Preferences(this)
 
         preference.setValues("onboarding", "1")
-//        if (preference.getValues("status").equals("1")) {
-//            goToHome()
-//        }
+        if (preference.getValues("status").equals("1")) {
+            goToHome()
+        }
 
         button_sign_in.setOnClickListener {
             iUsername = edit_username.text.toString()

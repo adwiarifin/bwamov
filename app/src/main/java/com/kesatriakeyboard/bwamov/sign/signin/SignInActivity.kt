@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.*
-import com.kesatriakeyboard.bwamov.HomeActivity
+import com.kesatriakeyboard.bwamov.home.HomeActivity
 import com.kesatriakeyboard.bwamov.R
 import com.kesatriakeyboard.bwamov.sign.signup.SignUpActivity
 import com.kesatriakeyboard.bwamov.utils.Preferences

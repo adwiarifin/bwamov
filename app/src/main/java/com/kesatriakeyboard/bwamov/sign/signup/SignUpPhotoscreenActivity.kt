@@ -21,7 +21,7 @@ import com.karumi.dexter.listener.PermissionDeniedResponse
 import com.karumi.dexter.listener.PermissionGrantedResponse
 import com.karumi.dexter.listener.PermissionRequest
 import com.karumi.dexter.listener.single.PermissionListener
-import com.kesatriakeyboard.bwamov.HomeActivity
+import com.kesatriakeyboard.bwamov.home.HomeActivity
 import com.kesatriakeyboard.bwamov.R
 import com.kesatriakeyboard.bwamov.utils.Preferences
 import kotlinx.android.synthetic.main.activity_sign_up_photoscreen.*

@@ -8,7 +8,7 @@
     tools:context=".onboarding.OnboardingOneActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_sign_up"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -23,7 +23,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button_sign_in"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -32,7 +32,7 @@
         android:background="@drawable/shape_rectangle_pink"
         android:text="@string/masuk_akun"
         android:textColor="@color/colorWhite"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/button_sign_up"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -43,6 +43,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="16dp"
+        android:contentDescription="@string/logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -70,6 +71,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
+        android:labelFor="@id/edit_username"
         android:text="@string/username"
         android:textColor="@color/colorWhite"
         app:layout_constraintEnd_toEndOf="parent"
@@ -77,21 +79,21 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/edit_username"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:backgroundTint="@color/colorWhite"
         android:ems="10"
-        android:hint="@string/username"
         android:inputType="textPersonName"
         android:textColor="@color/colorWhite"
         android:textColorHint="@color/colorWhiteGrey"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.527"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:text="anggarisky" />
 
     <TextView
         android:id="@+id/textView5"
@@ -100,14 +102,15 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
+        android:labelFor="@id/edit_password"
         android:text="@string/password"
         android:textColor="@color/colorWhite"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/edit_username" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/edit_password"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -115,10 +118,10 @@
         android:backgroundTint="@color/colorWhite"
         android:ems="10"
         android:inputType="textPassword"
-        android:text="Test"
         android:textColor="@color/colorWhite"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:text="test" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

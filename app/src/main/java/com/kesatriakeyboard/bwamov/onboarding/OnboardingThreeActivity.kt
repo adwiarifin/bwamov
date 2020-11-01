@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.kesatriakeyboard.bwamov.R
-import com.kesatriakeyboard.bwamov.sign.SignInActivity
+import com.kesatriakeyboard.bwamov.sign.signin.SignInActivity
 import kotlinx.android.synthetic.main.activity_onboarding_three.*
 
 class OnboardingThreeActivity : AppCompatActivity() {
